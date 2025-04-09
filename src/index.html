@@ -8,8 +8,20 @@
     <script type="module" src="./index.js"></script>
   </head>
   <body>
-    <h1>Example title</h1>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+    
+    <div class="simple-todo">
+    </div class="tasks-wrapper">
+    <h2>To do list!</h2>
+    <ul id="todo-list">
+      <li>Visit vebinar</li>
+      <li>Write conspect</li>
+      <li>Reapet code </li>
+    </ul>
+  </div>
+  <form id="todo-form">
+    <input class="todo-input" type="text" placeholder="Enter task`s name">
+    <button type="submit">Add task</button>
+  </form>
+    </div>      
   </body>
 </html>
